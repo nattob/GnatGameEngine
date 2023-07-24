@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2EF70432A6E225F009130CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EF70422A6E225F009130CB /* AppDelegate.m */; };
+		A2EF70452A6E2260009130CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2EF70442A6E2260009130CB /* Assets.xcassets */; };
+		A2EF70482A6E2260009130CB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2EF70462A6E2260009130CB /* MainMenu.xib */; };
+		A2EF704A2A6E2260009130CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EF70492A6E2260009130CB /* main.m */; };
+		A2EF70552A6E2260009130CB /* AudioMakerProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EF70542A6E2260009130CB /* AudioMakerProTests.m */; };
+		A2EF705F2A6E2260009130CB /* AudioMakerProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EF705E2A6E2260009130CB /* AudioMakerProUITests.m */; };
+		A2EF70612A6E2260009130CB /* AudioMakerProUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EF70602A6E2260009130CB /* AudioMakerProUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2EF70512A6E2260009130CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2EF70362A6E225F009130CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2EF703D2A6E225F009130CB;
+			remoteInfo = AudioMakerPro;
+		};
+		A2EF705B2A6E2260009130CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2EF70362A6E225F009130CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2EF703D2A6E225F009130CB;
+			remoteInfo = AudioMakerPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2EF703E2A6E225F009130CB /* AudioMakerPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioMakerPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EF70412A6E225F009130CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2EF70422A6E225F009130CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2EF70442A6E2260009130CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2EF70472A6E2260009130CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A2EF70492A6E2260009130CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2EF704B2A6E2260009130CB /* AudioMakerPro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AudioMakerPro.entitlements; sourceTree = "<group>"; };
+		A2EF70502A6E2260009130CB /* AudioMakerProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioMakerProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EF70542A6E2260009130CB /* AudioMakerProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioMakerProTests.m; sourceTree = "<group>"; };
+		A2EF705A2A6E2260009130CB /* AudioMakerProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioMakerProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EF705E2A6E2260009130CB /* AudioMakerProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioMakerProUITests.m; sourceTree = "<group>"; };
+		A2EF70602A6E2260009130CB /* AudioMakerProUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioMakerProUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2EF703B2A6E225F009130CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EF704D2A6E2260009130CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EF70572A6E2260009130CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2EF70352A6E225F009130CB = {
+			isa = PBXGroup;
+			children = (
+				A2EF70402A6E225F009130CB /* AudioMakerPro */,
+				A2EF70532A6E2260009130CB /* AudioMakerProTests */,
+				A2EF705D2A6E2260009130CB /* AudioMakerProUITests */,
+				A2EF703F2A6E225F009130CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2EF703F2A6E225F009130CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2EF703E2A6E225F009130CB /* AudioMakerPro.app */,
+				A2EF70502A6E2260009130CB /* AudioMakerProTests.xctest */,
+				A2EF705A2A6E2260009130CB /* AudioMakerProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2EF70402A6E225F009130CB /* AudioMakerPro */ = {
+			isa = PBXGroup;
+			children = (
+				A2EF70412A6E225F009130CB /* AppDelegate.h */,
+				A2EF70422A6E225F009130CB /* AppDelegate.m */,
+				A2EF70442A6E2260009130CB /* Assets.xcassets */,
+				A2EF70462A6E2260009130CB /* MainMenu.xib */,
+				A2EF70492A6E2260009130CB /* main.m */,
+				A2EF704B2A6E2260009130CB /* AudioMakerPro.entitlements */,
+			);
+			path = AudioMakerPro;
+			sourceTree = "<group>";
+		};
+		A2EF70532A6E2260009130CB /* AudioMakerProTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2EF70542A6E2260009130CB /* AudioMakerProTests.m */,
+			);
+			path = AudioMakerProTests;
+			sourceTree = "<group>";
+		};
+		A2EF705D2A6E2260009130CB /* AudioMakerProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2EF705E2A6E2260009130CB /* AudioMakerProUITests.m */,
+				A2EF70602A6E2260009130CB /* AudioMakerProUITestsLaunchTests.m */,
+			);
+			path = AudioMakerProUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2EF703D2A6E225F009130CB /* AudioMakerPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2EF70642A6E2260009130CB /* Build configuration list for PBXNativeTarget "AudioMakerPro" */;
+			buildPhases = (
+				A2EF703A2A6E225F009130CB /* Sources */,
+				A2EF703B2A6E225F009130CB /* Frameworks */,
+				A2EF703C2A6E225F009130CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioMakerPro;
+			productName = AudioMakerPro;
+			productReference = A2EF703E2A6E225F009130CB /* AudioMakerPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2EF704F2A6E2260009130CB /* AudioMakerProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2EF70672A6E2260009130CB /* Build configuration list for PBXNativeTarget "AudioMakerProTests" */;
+			buildPhases = (
+				A2EF704C2A6E2260009130CB /* Sources */,
+				A2EF704D2A6E2260009130CB /* Frameworks */,
+				A2EF704E2A6E2260009130CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2EF70522A6E2260009130CB /* PBXTargetDependency */,
+			);
+			name = AudioMakerProTests;
+			productName = AudioMakerProTests;
+			productReference = A2EF70502A6E2260009130CB /* AudioMakerProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2EF70592A6E2260009130CB /* AudioMakerProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2EF706A2A6E2260009130CB /* Build configuration list for PBXNativeTarget "AudioMakerProUITests" */;
+			buildPhases = (
+				A2EF70562A6E2260009130CB /* Sources */,
+				A2EF70572A6E2260009130CB /* Frameworks */,
+				A2EF70582A6E2260009130CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2EF705C2A6E2260009130CB /* PBXTargetDependency */,
+			);
+			name = AudioMakerProUITests;
+			productName = AudioMakerProUITests;
+			productReference = A2EF705A2A6E2260009130CB /* AudioMakerProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2EF70362A6E225F009130CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A2EF703D2A6E225F009130CB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A2EF704F2A6E2260009130CB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A2EF703D2A6E225F009130CB;
+					};
+					A2EF70592A6E2260009130CB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A2EF703D2A6E225F009130CB;
+					};
+				};
+			};
+			buildConfigurationList = A2EF70392A6E225F009130CB /* Build configuration list for PBXProject "AudioMakerPro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2EF70352A6E225F009130CB;
+			productRefGroup = A2EF703F2A6E225F009130CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2EF703D2A6E225F009130CB /* AudioMakerPro */,
+				A2EF704F2A6E2260009130CB /* AudioMakerProTests */,
+				A2EF70592A6E2260009130CB /* AudioMakerProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2EF703C2A6E225F009130CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EF70452A6E2260009130CB /* Assets.xcassets in Resources */,
+				A2EF70482A6E2260009130CB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EF704E2A6E2260009130CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EF70582A6E2260009130CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2EF703A2A6E225F009130CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EF704A2A6E2260009130CB /* main.m in Sources */,
+				A2EF70432A6E225F009130CB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EF704C2A6E2260009130CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EF70552A6E2260009130CB /* AudioMakerProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EF70562A6E2260009130CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EF70612A6E2260009130CB /* AudioMakerProUITestsLaunchTests.m in Sources */,
+				A2EF705F2A6E2260009130CB /* AudioMakerProUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2EF70522A6E2260009130CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2EF703D2A6E225F009130CB /* AudioMakerPro */;
+			targetProxy = A2EF70512A6E2260009130CB /* PBXContainerItemProxy */;
+		};
+		A2EF705C2A6E2260009130CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2EF703D2A6E225F009130CB /* AudioMakerPro */;
+			targetProxy = A2EF705B2A6E2260009130CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2EF70462A6E2260009130CB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2EF70472A6E2260009130CB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2EF70622A6E2260009130CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A2EF70632A6E2260009130CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A2EF70652A6E2260009130CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AudioMakerPro/AudioMakerPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GameEngine.AudioMakerPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		A2EF70662A6E2260009130CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AudioMakerPro/AudioMakerPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GameEngine.AudioMakerPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		A2EF70682A6E2260009130CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GameEngine.AudioMakerProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioMakerPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AudioMakerPro";
+			};
+			name = Debug;
+		};
+		A2EF70692A6E2260009130CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GameEngine.AudioMakerProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioMakerPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AudioMakerPro";
+			};
+			name = Release;
+		};
+		A2EF706B2A6E2260009130CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GameEngine.AudioMakerProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = AudioMakerPro;
+			};
+			name = Debug;
+		};
+		A2EF706C2A6E2260009130CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GameEngine.AudioMakerProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = AudioMakerPro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2EF70392A6E225F009130CB /* Build configuration list for PBXProject "AudioMakerPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EF70622A6E2260009130CB /* Debug */,
+				A2EF70632A6E2260009130CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2EF70642A6E2260009130CB /* Build configuration list for PBXNativeTarget "AudioMakerPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EF70652A6E2260009130CB /* Debug */,
+				A2EF70662A6E2260009130CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2EF70672A6E2260009130CB /* Build configuration list for PBXNativeTarget "AudioMakerProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EF70682A6E2260009130CB /* Debug */,
+				A2EF70692A6E2260009130CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2EF706A2A6E2260009130CB /* Build configuration list for PBXNativeTarget "AudioMakerProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EF706B2A6E2260009130CB /* Debug */,
+				A2EF706C2A6E2260009130CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2EF70362A6E225F009130CB /* Project object */;
+}
