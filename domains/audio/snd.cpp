@@ -1,11 +1,11 @@
  
- StartSound()
+ void StartSound()
  {
 
 
  }
 
- StopSound()
+ void StopSound()
  {
 
  }
