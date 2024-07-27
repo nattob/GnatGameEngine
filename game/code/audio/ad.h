@@ -15,7 +15,7 @@ class AudioEngine
     void SetChannel3dPosition( int nChannelId, const Vec3& vPosition );
     void SetChannelVolume( int nChannelId, float fVolumedB );
     bool IsPlaying( int nChannelId ) const;
-}
+};
 
 struct Implementation
 {
@@ -32,7 +32,7 @@ struct Implementation
     typedef map<int, FMOD::Channel*> ChannelMap;
     SoundMap mSounds;
     ChannelMap mChannels;
-}
+};
 
 Implementation* sgpImplementation = nullptr;
 
